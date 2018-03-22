@@ -1,6 +1,37 @@
-
-
-#imgbox{
-	background-color: #9BD7F1;
+@font-face {
+    font-family: 'Impact';
+    src: url(font/impact.ttf) format('truetype');
 }
 
+body{
+	background-image: url("images/achtergond2.0.png");
+	background-repeat: no-repeat;
+	background-size: cover;
+   	background-attachment: fixed;
+   	font-family: Impact, serif;
+}
+
+.navbar{
+	top: 0;
+	width: 100%;
+	background-image: url("images/balkWebsite.png");
+	background-repeat: no-repeat;
+	height: 23vh;
+	background-attachment: fixed;
+	background-size: 100% 23vh;
+	z-index: 100;
+	position: fixed;
+	opacity: 0.8;
+    filter: alpha(opacity=80);
+    padding: 0;
+}
+
+#cheese{
+	margin-top: 23vh;
+}
+
+#logo{
+	width: 24%;
+	margin-top:-8vh;
+	margin-left: 1%;
+}
