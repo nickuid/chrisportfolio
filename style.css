@@ -1,20 +1,6 @@
 
-#navbar{
-	background-color: #9BD7F1;
-	height: 50px;
-}
 
 #imgbox{
 	background-color: #9BD7F1;
 }
 
-#nav{
-	margin-left: auto;
-	margin-right: auto;
-	text-align: left;
-}
-
-#nav ul li{
-	margin-right: 15px;
-	font-size: 40px;
-}
